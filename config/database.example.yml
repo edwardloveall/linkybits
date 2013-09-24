@@ -1,0 +1,23 @@
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: linkybits_development
+  username: <%= ENV['POSTGRES_USERNAME'] %>
+  password:
+  pool: 5
+
+test:
+  adapter: postgresql
+  encoding: unicode
+  database: linkybits_test
+  username: <%= ENV['POSTGRES_USERNAME'] %>
+  password:
+  pool: 5
+
+production:
+  adapter: postgresql
+  encoding: unicode
+  database: linkybits_production
+  username: <%= ENV['POSTGRES_USERNAME'] %>
+  password:
+  pool: 5
