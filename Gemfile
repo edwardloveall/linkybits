@@ -17,3 +17,4 @@ end
 gem 'thin'
 gem 'clearance'
 gem 'quiet_assets', group: :development
+gem 'simple_form'

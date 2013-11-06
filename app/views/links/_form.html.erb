@@ -1,0 +1,6 @@
+<%= simple_form_for(@link) do |form| %>
+  <%= form.input :title, as: :string %>
+  <%= form.input :url, as: :string %>
+  <%= form.input :description %>
+  <%= form.button :submit %>
+<% end %>
