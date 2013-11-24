@@ -18,3 +18,6 @@ gem 'thin'
 gem 'clearance'
 gem 'quiet_assets', group: :development
 gem 'simple_form'
+gem 'bourbon'
+gem 'neat'
+gem 'bitters'
