@@ -14,6 +14,8 @@ group :doc do
   gem 'sdoc', require: false
 end
 
+gem 'debugger', group: :development
+
 gem 'thin'
 gem 'clearance'
 gem 'quiet_assets', group: :development

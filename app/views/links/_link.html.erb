@@ -4,7 +4,7 @@
   <p>
     <%= link_to '[link]', link %>
     <% if link.user == current_user %>
-      <%= link_to 'Delete', link, method: :delete, confirm: 'Are you sure?' %>
+      <%= link_to 'Delete', link, method: :delete, data: { confirm: 'Are you sure?' } %>
     <% end %>
   </p>
 </article>
