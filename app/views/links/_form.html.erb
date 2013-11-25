@@ -1,4 +1,5 @@
 <%= simple_form_for(@link) do |form| %>
+  <%= form.association :group, include_blank: false %>
   <%= form.input :title, as: :string %>
   <%= form.input :url, as: :string %>
   <%= form.input :description %>
