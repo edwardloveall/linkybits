@@ -47,6 +47,7 @@ textarea,
   font-size: $form-font-size;
   margin-bottom: $base-line-height / 2;
   padding: ($base-line-height / 3) ($base-line-height / 3);
+  resize: vertical;
   width: 100%;
 
   &:hover {
@@ -67,6 +68,10 @@ input[type="search"] {
 input[type="checkbox"], input[type="radio"] {
   display: inline;
   margin-right: $base-line-height / 4;
+}
+
+input[type="file"] {
+  width: 100%;
 }
 
 select {

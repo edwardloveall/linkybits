@@ -1,5 +1,5 @@
 Linkybits::Application.routes.draw do
-  root to: "links#index"
+  root to: "groups#index"
 
   resources :links
   resources :groups
